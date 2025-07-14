@@ -3,6 +3,11 @@
 #define CHAT_CLIENT_H
 
 /**
+ * @brief Macro defining timeout period in ms
+ */
+#define TIMEOUT_MS 2000
+
+/**
  * @brief Prepares client side connection resources for an RDMA connection
  * 
  * @param s_addr (struct sockaddr_in*) 
